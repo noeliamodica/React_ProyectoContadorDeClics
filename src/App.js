@@ -2,6 +2,7 @@
 import './App.css';
 import Logo from './imagenes/logo.png'
 import Boton from './componentes/Boton';
+import Contador from './componentes/Contador';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       </div>
 
       <div className='contenedor-principal'>
+        <Contador numClics='5' />
         <Boton
           texto= 'Clic'
           esBotonDeCLic={true}
